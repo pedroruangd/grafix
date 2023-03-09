@@ -1,0 +1,31 @@
+
+header .container {
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .hero {
+        align-items: center;
+        background-image: url('../assets/images/banner-lance-me.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        height: 25rem;
+        display: flex;
+        padding: 5rem;
+        width: 100%;
+        border-radius: 15px;
+
+        h1 {
+            padding: 0;
+            text-align: left;
+            width: 100%;
+            font-size: 4rem;
+            width: 40%;
+        }
+
+        
+    }
+
+}

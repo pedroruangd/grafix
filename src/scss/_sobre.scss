@@ -1,0 +1,17 @@
+
+#sobre {
+    background-color: none;
+    .container {
+        border-radius: .5rem;
+        margin: 2rem auto;
+        padding: 0 2rem 2rem;
+    }
+
+    article {
+        
+        p {
+            font-size: $font-size-default;
+            color: $font-color-primary;
+        }
+    }
+}

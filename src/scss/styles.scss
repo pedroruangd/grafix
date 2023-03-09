@@ -9,7 +9,17 @@ $font-size-nav: 1.8rem;
 @import 'fonts';
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 @import 'nav';
+@import 'grid';
 
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+* {
+    box-sizing: border-box; 
+    // considera o padding e border como parte do cálculo total da largura e altura
+}
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -78,3 +88,4 @@ section {
 @import 'vitrine';
 @import 'steps';
 @import 'footer';
+@import 'responsive';
